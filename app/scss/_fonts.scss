@@ -1,0 +1,7 @@
+@import "_mixins/font-face";
+
+@include font-face("roboto-example", "../fonts/RobotoRegular/RobotoRegular");
+@include font-face("robotoBold", "../fonts/RobotoBold/RobotoBold", bold);
+@include font-face("OldStandardTT", "../fonts/../fonts/OldStandardTT/OldStandard-Regular");
+
+
