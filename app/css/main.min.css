@@ -13189,6 +13189,13 @@ footer p {
   padding-bottom: 38px;
 }
 
+.header-img {
+  min-height: 350px;
+  background-color: #EFEFF1;
+  -webkit-box-shadow: inset 2px 2px 5px rgba(154, 147, 140, 0.5);
+          box-shadow: inset 2px 2px 5px rgba(154, 147, 140, 0.5);
+}
+
 /*==========  Desktop First  ==========*/
 @media (max-width: 991.98px) {
   .carousel-caption p {

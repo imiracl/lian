@@ -363,4 +363,10 @@ footer {
   }
 }
 
+.header-img{
+min-height: 350px;
+background-color: #EFEFF1;
+box-shadow: inset 2px 2px 5px rgba(154, 147, 140, 0.5);
+}
+
 @import "media"; // Always at the end
