@@ -22,6 +22,14 @@
   src: url("../fonts/../fonts/OldStandardTT/OldStandard-Regular.eot?#iefix") format("embedded-opentype"), url("../fonts/../fonts/OldStandardTT/OldStandard-Regular.woff") format("woff"), url("../fonts/../fonts/OldStandardTT/OldStandard-Regular.ttf") format("truetype");
 }
 
+@font-face {
+  font-family: "robotoLight";
+  font-weight: normal;
+  font-style: normal;
+  src: url("../fonts/../fonts/RobotoLight/Roboto-Light.eot");
+  src: url("../fonts/../fonts/RobotoLight/Roboto-Light.eot?#iefix") format("embedded-opentype"), url("../fonts/../fonts/RobotoLight/Roboto-Light.woff") format("woff"), url("../fonts/../fonts/RobotoLight/Roboto-Light.ttf") format("truetype");
+}
+
 /*!
  * Bootstrap Reboot v4.0.0 (https://getbootstrap.com)
  * Copyright 2011-2018 The Bootstrap Authors
@@ -12880,6 +12888,11 @@ body textarea:required:valid {
   width: 100%;
 }
 
+#logotip {
+  padding-bottom: 15px;
+  padding-top: 10px;
+}
+
 .text-center {
   text-align: center;
 }
@@ -13190,10 +13203,59 @@ footer p {
 }
 
 .header-img {
-  min-height: 350px;
-  background-color: #EFEFF1;
+  background-image: url(../img/about/header-img.png);
+  background-repeat: no-repeat;
+  background-size: 100%;
+  min-height: 420px;
   -webkit-box-shadow: inset 2px 2px 5px rgba(154, 147, 140, 0.5);
           box-shadow: inset 2px 2px 5px rgba(154, 147, 140, 0.5);
+}
+
+.about-text-block {
+  padding-top: 115px;
+}
+
+.about-text-block h1 {
+  display: inline;
+  background-color: black;
+  padding-left: 33px;
+  padding-right: 33px;
+  text-transform: uppercase;
+  font-size: 48px;
+  color: white;
+  font-family: robotoLight;
+  letter-spacing: 0.1em;
+}
+
+.about-text-block p {
+  font-size: 18px;
+  color: black;
+  font-family: robotoLight;
+  text-transform: uppercase;
+  padding-top: 35px;
+  letter-spacing: 0.4em;
+}
+
+.our_story {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.navigation {
+  padding-left: 0px;
+  padding-right: 0px;
+  padding-top: 5px;
+}
+
+nav {
+  padding: 0px;
+}
+
+.container {
+  padding-right: 0px;
+  padding-left: 0px;
 }
 
 /*==========  Desktop First  ==========*/
