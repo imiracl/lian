@@ -13300,6 +13300,32 @@ footer p {
   margin-bottom: 56px;
 }
 
+.awesome_team_block .card-body {
+  margin-top: 10px;
+  margin-left: 10px;
+}
+
+.awesome_team_block .card-deck .card a {
+  font-size: 24px;
+  color: #041608;
+  text-transform: uppercase;
+  font-family: roboto-regular;
+  text-decoration: none;
+}
+
+.awesome_team_block .card-deck .card .ceo_founder {
+  font-size: 16px;
+  font-family: robotoBold;
+  color: #777777;
+  margin-top: -15px;
+}
+
+.awesome_team_block .card-deck .card .card__text {
+  font-size: 14px;
+  font-family: robotoLight;
+  color: #9c9c9c;
+}
+
 .navigation {
   padding-left: 0px;
   padding-right: 0px;
