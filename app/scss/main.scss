@@ -51,7 +51,7 @@ body {
     width: 100%;
   }
 }
-#logotip{
+#logotip {
   padding-bottom: 15px;
   padding-top: 10px;
 }
@@ -367,52 +367,106 @@ footer {
 }
 
 .header-img {
-  background-image: url(../img/about/header-img.png);
-  background-repeat: no-repeat;
-  background-size: 100%;
-  min-height: 420px;
   box-shadow: inset 2px 2px 5px rgba(154, 147, 140, 0.5);
-}
-.about-text-block{
-  padding-top: 115px;
-  h1{
-    display: inline;
+  background-image: url(../img/about/header-img.png);
+  background-size: cover;
+  h1 {
+    display: inline-block;
     background-color: black;
-    
-   // padding-top: 11px;
     padding-left: 33px;
-    //padding-bottom: 11px;
     padding-right: 33px;
     text-transform: uppercase;
-    font-size: 48px;
+    font-size: 48px; //48
     color: white;
     font-family: robotoLight;
-    
     letter-spacing: 0.1em;
+    margin-top: 10%;
   }
-  p{
-    font-size: 18px;
+  p {
+    font-size: 18px; //18
     color: black;
     font-family: robotoLight;
     text-transform: uppercase;
     padding-top: 35px;
     letter-spacing: 0.4em;
+    z-index: 99;
+    padding-bottom: 110px;
   }
 }
 
-.our_story{
+.our_story {
   display: flex;
+  margin-top:64px;
+}
+.our_story_text {
+  margin-top:9px;
+  margin-left: 50px;
+  
+  h3 {
+    font-family: roboto-regular;
+    text-transform: uppercase;
+    color: black;
+    font-size: 18px;
+    letter-spacing: 0.4em;
+  }
+  p {
+    margin-top: 30px;
+    color: #777777;
+    font-size: 14px;
+    font-family: roboto-regular;
+    line-height: 30px;
+    letter-spacing: 25;
+  }
+  #our_skills_h3{
+    margin-top: 26px;
+    margin-bottom: 35px;
+  }
+  .soft_skills{
+    font-family: robotoBold;
+    font-size: 16px;
+    color: #2f302f;
+
+  }
+  img{
+    margin-top:-20px;
+    margin-bottom: 12px;
+  }
 }
 
-.navigation{
+.awesome_team_block{
+  margin-top: 78px;
+  .awesome_team{
+    h2{
+      font-size: 30px;
+      font-family:roboto-regular;
+      text-transform: uppercase;
+      letter-spacing: 12px;
+      text-align: center;
+      color: black;
+      
+    }
+    p{
+      text-align: center;
+      margin-top: 28px;
+      line-height: 30px;
+      font-family: roboto-regular;
+      margin-bottom: 56px;
+    }
+  }
+}
+
+
+
+
+.navigation {
   padding-left: 0px;
   padding-right: 0px;
-  padding-top:5px;
+  padding-top: 5px;
 }
-nav{
+nav {
   padding: 0px;
 }
-.container{
+.container {
   padding-right: 0px;
   padding-left: 0px;
 }

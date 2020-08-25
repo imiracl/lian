@@ -1,5 +1,5 @@
 @font-face {
-  font-family: "roboto-example";
+  font-family: "roboto-regular";
   font-weight: normal;
   font-style: normal;
   src: url("../fonts/RobotoRegular/RobotoRegular.eot");
@@ -13203,20 +13203,14 @@ footer p {
 }
 
 .header-img {
-  background-image: url(../img/about/header-img.png);
-  background-repeat: no-repeat;
-  background-size: 100%;
-  min-height: 420px;
   -webkit-box-shadow: inset 2px 2px 5px rgba(154, 147, 140, 0.5);
           box-shadow: inset 2px 2px 5px rgba(154, 147, 140, 0.5);
+  background-image: url(../img/about/header-img.png);
+  background-size: cover;
 }
 
-.about-text-block {
-  padding-top: 115px;
-}
-
-.about-text-block h1 {
-  display: inline;
+.header-img h1 {
+  display: inline-block;
   background-color: black;
   padding-left: 33px;
   padding-right: 33px;
@@ -13225,15 +13219,18 @@ footer p {
   color: white;
   font-family: robotoLight;
   letter-spacing: 0.1em;
+  margin-top: 10%;
 }
 
-.about-text-block p {
+.header-img p {
   font-size: 18px;
   color: black;
   font-family: robotoLight;
   text-transform: uppercase;
   padding-top: 35px;
   letter-spacing: 0.4em;
+  z-index: 99;
+  padding-bottom: 110px;
 }
 
 .our_story {
@@ -13241,6 +13238,66 @@ footer p {
   display: -webkit-flex;
   display: -ms-flexbox;
   display: flex;
+  margin-top: 64px;
+}
+
+.our_story_text {
+  margin-top: 9px;
+  margin-left: 50px;
+}
+
+.our_story_text h3 {
+  font-family: roboto-regular;
+  text-transform: uppercase;
+  color: black;
+  font-size: 18px;
+  letter-spacing: 0.4em;
+}
+
+.our_story_text p {
+  margin-top: 30px;
+  color: #777777;
+  font-size: 14px;
+  font-family: roboto-regular;
+  line-height: 30px;
+  letter-spacing: 25;
+}
+
+.our_story_text #our_skills_h3 {
+  margin-top: 26px;
+  margin-bottom: 35px;
+}
+
+.our_story_text .soft_skills {
+  font-family: robotoBold;
+  font-size: 16px;
+  color: #2f302f;
+}
+
+.our_story_text img {
+  margin-top: -20px;
+  margin-bottom: 12px;
+}
+
+.awesome_team_block {
+  margin-top: 78px;
+}
+
+.awesome_team_block .awesome_team h2 {
+  font-size: 30px;
+  font-family: roboto-regular;
+  text-transform: uppercase;
+  letter-spacing: 12px;
+  text-align: center;
+  color: black;
+}
+
+.awesome_team_block .awesome_team p {
+  text-align: center;
+  margin-top: 28px;
+  line-height: 30px;
+  font-family: roboto-regular;
+  margin-bottom: 56px;
 }
 
 .navigation {
