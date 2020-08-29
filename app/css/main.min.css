@@ -12981,25 +12981,29 @@ strong {
   color: white;
   margin: auto;
   position: absolute;
-  top: 50%;
+  top: 41.2%;
 }
 
 .carousel-caption h1 {
   background-color: black;
-  font-size: 3.5vw;
-  max-width: 701px;
+  font-size: 48px;
   margin: 0 auto;
-  margin-top: -1.7em;
-  line-height: 1.25;
+  margin-top: -30px;
+  line-height: 1;
   text-transform: uppercase;
+  letter-spacing: 0.1em;
+  font-family: robotoLight;
+  display: inline-block;
+  padding: 5px 34px 5px 34px;
 }
 
 .carousel-caption p {
   color: black;
-  font-size: 1.33vw;
+  font-size: 18px;
   text-transform: uppercase;
-  letter-spacing: 0.4rem;
+  letter-spacing: 0.4em;
   padding-top: 35px;
+  font-family: robotoLight;
 }
 
 .tabs {

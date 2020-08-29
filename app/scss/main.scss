@@ -127,7 +127,13 @@ strong {
     height: 42px;
   }
 }
-
+.index-carusel-block {
+  .carousel-item {
+    img {
+      //
+    }
+  }
+}
 .img-search-icon {
   max-width: 15px;
 }
@@ -153,27 +159,30 @@ strong {
   color: white;
   margin: auto;
   position: absolute;
-  top: 50%;
+  top: 41.2%;
 
   h1 {
     background-color: black;
-    // font-size:48px;
-    font-size: 3.5vw;
-    max-width: 701px;
+    font-size: 48px;
     margin: 0 auto;
-    //margin-top: -2.325em;
-    margin-top: -1.7em;
-    line-height: 1.25;
+    margin-top: -30px;
+    line-height: 1;
     text-transform: uppercase;
+    letter-spacing: 0.1em;
+    font-family: robotoLight;
+    display: inline-block;
+    padding: 5px 34px 5px 34px;
+    
   }
 
   p {
     color: black;
     // font-size: 18px;
-    font-size: 1.33vw;
+    font-size: 18px;
     text-transform: uppercase;
-    letter-spacing: 0.4rem;
+    letter-spacing: 0.4em;
     padding-top: 35px;
+    font-family: robotoLight;
   }
 }
 
@@ -369,7 +378,7 @@ footer {
 
 .header-img {
   box-shadow: inset 2px 2px 5px rgba(154, 147, 140, 0.5);
-  background-image: url(../img/about/header-img-cute.jpg) ;
+  background-image: url(../img/about/header-img-cute.jpg);
   background-color: #f1f1f3;
 
   background-size: contain;
@@ -403,7 +412,6 @@ footer {
 .our_story {
   display: flex;
   margin-top: 64px;
-  
 }
 .our_story_text {
   margin-top: 9px;
@@ -498,7 +506,6 @@ footer {
   box-shadow: 0 6px 4px -4px rgba(153, 153, 153, 0.2);
   margin-bottom: 5px;
 }
-
 
 .navigation {
   padding-left: 0px;
