@@ -332,7 +332,7 @@ strong {
   margin: auto;
 
   padding: {
-    top: 66px;
+    top: 50px;
     bottom: 44px;
   }
 }
@@ -343,6 +343,7 @@ strong {
   display: flex;
   height: 63px;
   justify-content: space-around;
+  align-items: center;
 
   img {
     width: 14px;
@@ -361,15 +362,20 @@ strong {
 footer {
   p {
     text-align: center;
-    padding-top: 38px;
-    padding-bottom: 38px;
+    padding-top: 30px;
+    padding-bottom: 30px;
   }
 }
 
 .header-img {
   box-shadow: inset 2px 2px 5px rgba(154, 147, 140, 0.5);
-  background-image: url(../img/about/header-img.png);
-  background-size: cover;
+  background-image: url(../img/about/header-img-cute.jpg) ;
+  background-color: #f1f1f3;
+
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: right;
+
   h1 {
     display: inline-block;
     background-color: black;
@@ -396,12 +402,13 @@ footer {
 
 .our_story {
   display: flex;
-  margin-top:64px;
+  margin-top: 64px;
+  
 }
 .our_story_text {
-  margin-top:9px;
+  margin-top: 9px;
   margin-left: 50px;
-  
+
   h3 {
     font-family: roboto-regular;
     text-transform: uppercase;
@@ -417,35 +424,34 @@ footer {
     line-height: 30px;
     letter-spacing: 25;
   }
-  #our_skills_h3{
+  #our_skills_h3 {
     margin-top: 26px;
     margin-bottom: 35px;
   }
-  .soft_skills{
+  .soft_skills {
     font-family: robotoBold;
     font-size: 16px;
     color: #2f302f;
-
   }
-  img{
-    margin-top:-20px;
+  img {
+    margin-top: -20px;
     margin-bottom: 12px;
+    width: 100%;
   }
 }
 
-.awesome_team_block{
+.awesome_team_block {
   margin-top: 78px;
-  .awesome_team{
-    h2{
+  .awesome_team {
+    h2 {
       font-size: 30px;
-      font-family:roboto-regular;
+      font-family: roboto-regular;
       text-transform: uppercase;
       letter-spacing: 12px;
       text-align: center;
       color: black;
-      
     }
-    p{
+    p {
       text-align: center;
       margin-top: 28px;
       line-height: 30px;
@@ -454,37 +460,44 @@ footer {
     }
   }
 }
-.awesome_team_block{
-  .card-body{
+.awesome_team_block {
+  .card-body {
     margin-top: 10px;
     margin-left: 10px;
   }
- .card-deck{
-  .card{
-    a{
-      font-size: 24px;
-      color: #041608;
-      text-transform: uppercase;
-      font-family:roboto-regular;
-      text-decoration: none;
-
-    }
-    .ceo_founder{
-      font-size: 16px;
-      font-family: robotoBold;
-      color:#777777;
-      margin-top: -15px;
-    }
-    .card__text{
-      font-size: 14px;
-      font-family: robotoLight;
-      color: #9c9c9c;
+  .card-deck {
+    .card {
+      margin-bottom: 66px;
+      //align-items: center;
+      a {
+        font-size: 24px;
+        color: #041608;
+        text-transform: uppercase;
+        font-family: roboto-regular;
+        text-decoration: none;
+      }
+      .ceo_founder {
+        font-size: 16px;
+        font-family: robotoBold;
+        color: #777777;
+        margin-top: -15px;
+      }
+      .card__text {
+        font-size: 14px;
+        font-family: robotoLight;
+        color: #9c9c9c;
+        margin-right: 17px;
+        box-shadow: 0 6px 4px -4px rgba(0, 0, 0, 0.2);
+      }
     }
   }
-
- }
 }
 
+.awesome-background {
+  background-color: #fafafa;
+  box-shadow: 0 6px 4px -4px rgba(153, 153, 153, 0.2);
+  margin-bottom: 5px;
+}
 
 
 .navigation {

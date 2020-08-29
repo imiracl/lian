@@ -13166,7 +13166,7 @@ strong {
 .bottom-logo {
   display: block;
   margin: auto;
-  padding-top: 66px;
+  padding-top: 50px;
   padding-bottom: 44px;
 }
 
@@ -13181,6 +13181,10 @@ strong {
   -webkit-justify-content: space-around;
       -ms-flex-pack: distribute;
           justify-content: space-around;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+      -ms-flex-align: center;
+          align-items: center;
 }
 
 .social-icons img {
@@ -13198,15 +13202,18 @@ strong {
 
 footer p {
   text-align: center;
-  padding-top: 38px;
-  padding-bottom: 38px;
+  padding-top: 30px;
+  padding-bottom: 30px;
 }
 
 .header-img {
   -webkit-box-shadow: inset 2px 2px 5px rgba(154, 147, 140, 0.5);
           box-shadow: inset 2px 2px 5px rgba(154, 147, 140, 0.5);
-  background-image: url(../img/about/header-img.png);
-  background-size: cover;
+  background-image: url(../img/about/header-img-cute.jpg);
+  background-color: #f1f1f3;
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: right;
 }
 
 .header-img h1 {
@@ -13277,6 +13284,7 @@ footer p {
 .our_story_text img {
   margin-top: -20px;
   margin-bottom: 12px;
+  width: 100%;
 }
 
 .awesome_team_block {
@@ -13305,6 +13313,10 @@ footer p {
   margin-left: 10px;
 }
 
+.awesome_team_block .card-deck .card {
+  margin-bottom: 66px;
+}
+
 .awesome_team_block .card-deck .card a {
   font-size: 24px;
   color: #041608;
@@ -13324,6 +13336,16 @@ footer p {
   font-size: 14px;
   font-family: robotoLight;
   color: #9c9c9c;
+  margin-right: 17px;
+  -webkit-box-shadow: 0 6px 4px -4px rgba(0, 0, 0, 0.2);
+          box-shadow: 0 6px 4px -4px rgba(0, 0, 0, 0.2);
+}
+
+.awesome-background {
+  background-color: #fafafa;
+  -webkit-box-shadow: 0 6px 4px -4px rgba(153, 153, 153, 0.2);
+          box-shadow: 0 6px 4px -4px rgba(153, 153, 153, 0.2);
+  margin-bottom: 5px;
 }
 
 .navigation {
@@ -13342,21 +13364,126 @@ nav {
 }
 
 /*==========  Desktop First  ==========*/
+@media (max-width: 1199.98px) {
+  .our_story_text {
+    margin-left: 0px;
+  }
+  .our_story_text {
+    text-align: center;
+  }
+  .our_story_img {
+    margin: 0 auto;
+  }
+  .our_story {
+    margin-top: 0px;
+  }
+  .our_story img {
+    max-width: 450px;
+    margin-right: 20px;
+  }
+}
+
 @media (max-width: 991.98px) {
+  .our_story {
+    margin-top: 0px;
+  }
+  .our_story img {
+    max-width: 400px;
+    margin-right: 20px;
+  }
+  .our_story_text {
+    margin-left: 0px;
+  }
   .carousel-caption p {
     letter-spacing: 0.4rem;
     font-size: 13px;
   }
+  .header-img H1 {
+    font-size: 38px;
+  }
 }
 
 @media (max-width: 767.98px) {
+  .our_story_text {
+    margin-left: 0px;
+  }
+  .our_story {
+    margin-top: 10px;
+  }
+  #logotip {
+    margin-left: 10px;
+  }
   .navigation .carousel-caption p {
     letter-spacing: 0.2rem;
     font-size: 13px;
   }
+  .header-img {
+    background-color: #f1f1f3;
+  }
+  .header-img H1 {
+    font-size: 30px;
+    margin-top: 40px;
+  }
+  .header-img p {
+    margin: 0 auto;
+    padding: 0;
+    text-align: center;
+    margin-top: -20px;
+    margin-bottom: 40px;
+  }
+  .header-img .about__text__block {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -webkit-flex-direction: column;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-pack: center;
+    -webkit-justify-content: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+    -webkit-align-items: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
 }
 
 @media (max-width: 575.98px) {
+  .header-img h1 {
+    font-size: 20px;
+  }
+  .awesome_team_block .awesome_team h2 {
+    font-size: 20px;
+  }
+  .nav-item {
+    margin-right: 10px;
+  }
+  .about__text__block h1 {
+    margin-top: 20px;
+  }
+  .about__text__block p {
+    font-size: 15px;
+    margin-top: -20px;
+    margin-bottom: 20px;
+    padding: 0px;
+    color: white;
+    background-color: black;
+  }
+  .our_story_text {
+    margin: 10px 0 0 0;
+    text-align: center;
+  }
+  .our_story_img {
+    margin: 0 auto;
+  }
+  .our_story_img img {
+    max-width: 300px;
+    padding: 0 10px 0 10px;
+  }
   .carousel-caption h1 {
     font-size: 1.2rem;
   }
