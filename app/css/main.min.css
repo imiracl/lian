@@ -13402,6 +13402,9 @@ nav {
     letter-spacing: 0.4rem;
     font-size: 13px;
   }
+  .carousel-caption h1 {
+    font-size: 20px;
+  }
   .header-img H1 {
     font-size: 38px;
   }
@@ -13488,12 +13491,15 @@ nav {
     max-width: 300px;
     padding: 0 10px 0 10px;
   }
+  .carousel-caption {
+    margin-top: -30px;
+  }
   .carousel-caption h1 {
-    font-size: 1.2rem;
+    font-size: 16px;
   }
   .carousel-caption p {
     letter-spacing: 0.1rem;
-    font-size: 10px;
+    font-size: 14px;
     padding-top: 10px;
   }
 }
